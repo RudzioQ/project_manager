@@ -1,8 +1,13 @@
 * {
     margin: 0;
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+svg{
+    position: absolute;
+    z-index: 0;
+    margin-bottom: 10vh;
+}
 main {
     display: flex;
     flex-wrap: wrap;
@@ -28,27 +33,67 @@ header {
 }
 
 #button{
-    border: 1px solid #ffc72e;
-    width: 5vw;
-    height: 5vh;
+    border: 0.5vh solid #ffc72e;
+    width: 7vw;
+    height: 7vh;
     color: #ffc72e;
-    font-size: 1vw;
-}
-
-button {
-    width: 2vw;
-    margin-right: 2vw;
-    margin-top: 2vh;
-    align-self: flex-start;
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
+    font-size: 1.4vw;
+    background: inherit;
+    margin-right: 3vw;
+    border-radius: 0.5vw;
 }
 aside{
     display: flex;
-    width: 50vw;
+    width: 25vw;
     height: 85vh;
-    background-color: #1b1b1b;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #1b1b1b;
     color: #ffc72e;
+}
+.formhead{
+    z-index: 1;
+    margin-top: 15vh;
+    justify-content: left;
+    display: flex;
+    width: 25vw;
+    height: 10vh;
+    font-size: 2vw;
+}
+.mainform{
+    z-index: 1;
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    width: 25vw;
+}
+.mainform input{
+    padding: 0.5vw;
+    width: 20vw;
+    height: 5vh;
+    border: 0.5vh solid #ffc72e;
+    background: inherit;
+    color: #ffc72e;
+    font-size: 2vh;
+    border-radius: 0.5vw;
+    outline-width: 0;
+}
+a{
+    text-decoration: underline;
+    color: #ffc72e;
+    font-size: 2vh;
+}
+#submit{
+    width: 21.5vw;
+    height: 5.6vh;
+    background-color: #ffc72e;
+    color: #1b1b1b;
+    border-radius: 0.5vw;
+}
+
+.mainform input:focus::placeholder{
+    color: white;
+    text-decoration: none;
+    border: none;
+    outline-width: 0;
 }
