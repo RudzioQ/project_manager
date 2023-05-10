@@ -82,5 +82,5 @@ button{
   }
   
   .side-menu-trigger:focus ~ .side-menu, .side-menu:hover {
-    transform: translateX(-300px); 
+    transform: translateX(-16vw); 
   }
