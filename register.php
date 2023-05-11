@@ -13,9 +13,9 @@
             <a href="./index.html">
                 <img src="./bitmapa.svg" id="logo">
             </a>
-            <a href="./register.php">
+            <a href="./login.php">
             <button id="button">
-                Sign up
+                Sign in
             </button>
             </a>
         </header>
@@ -24,14 +24,14 @@
 <path d="M1171 5H636.5L588 104.5L545.5 5H192L5 152V750.5H357.5V265L441.5 435.5L430 452V750.5H750.5V452L738.5 435.5L824.5 265V750.5H1171V5Z" stroke="black" stroke-opacity="0.5" stroke-width="9"/>
 </svg>
             <div class="formhead">
-            <h1>Sign in</h1>
+            <h1>Sign up</h1>
             </div>
             <div class="mainform">
             <form>
                 <input type="email" placeholder="ur email here"><br><br>
                 <input type="password" placeholder="ur password here"><br><br>
-                <a href="">I forgot my password</a><br><br>
-                <input type="submit" id="submit" value="Sign in">
+                <!-- <a href="">I forgot my password</a><br><br> -->
+                <input type="submit" id="submit" value="Sign up">
             </form>
             </div>
         </aside>
